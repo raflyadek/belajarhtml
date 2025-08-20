@@ -3,16 +3,18 @@ body{
     margin: 0;
     padding: 0;
 }
+
 ul{
     background-color: white;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: relative;
+    position: stat;
     overflow: hidden;
     border: 1px solid #e7e7e7;
 
 }
+
 li{
     float: right;
 }
@@ -23,6 +25,11 @@ li a{
     text-decoration: none;
     color: #4c4b4b;
 } 
+
+li a:hover {
+    color: whitesmoke;
+}
+
 .data{
     display: flex;
     align-items: flex-start;
@@ -36,6 +43,7 @@ li a{
     border-radius: 8px;
     border: 1px solid #e7e7e7;
 }
+
 .profile-left{
     display: flex;
     flex: 1;
@@ -45,8 +53,9 @@ li a{
     align-items: center;
     border-right: 2px solid #e0e0e0;
 }
+
 .profile-right{
-    flex: 2;
+    flex: 1;
     padding-left: 30px;
     display: flex;
     flex-direction: column;
@@ -59,19 +68,24 @@ li a{
     color: #333;
     text-indent: 0;
 }
+
 .profile-info h1{
     margin: 0;
+    padding-bottom: 10px;
     font-size: 22px;
 }
+
 .profile-info p{
     margin-top: 4px;
     margin-bottom: 4px;
     margin-right: 0;
     margin-left: 0;
+    padding-bottom: 30px;
     font-size: 14px;
     justify-content: center;
     flex-direction: column;
 }
+
 .kontak, .resume{
     padding-top: 6px;
     padding-bottom: 6px;
@@ -79,19 +93,23 @@ li a{
     padding-left: 12px;
     margin-right: 10px;
     margin-top: 10px;
+    height: 40px;
     border: none;
     cursor: pointer;
     font-weight: bold;
 }
+
 .kontak{
     background-color: blue;
     color: white;
 }
+
 .resume{
     background-color: white;
     border: 1px solid green;
     color: green;
 }
+
 .form{
     font-weight: bold;
     background-color: white;
@@ -100,6 +118,7 @@ li a{
     border: 1px solid #e7e7e7;
     border-radius: 8px;
 }
+
 .forminput{
     position:static;
     box-sizing: border-box;
@@ -108,6 +127,7 @@ li a{
     margin-bottom: 10px;
     margin-top: 2px;
 }
+
 #submit{
     background-color: green;
     color: white;
