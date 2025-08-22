@@ -10,7 +10,12 @@ body {
     line-height: 1.6;
     color: #333;
     background: #f9f9f9;
-    font-size: 1rem; 
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin: 0;
+    padding: 0;
 }
 
 /* typography */
@@ -28,15 +33,14 @@ p { font-size: 1rem; }
 /* component  */
 .information {
     font-weight: bold;
-    font-size: small;
 }
 .support-sentence {
+    font-weight: bold;
     color: red;
 }
 
 footer {
-    text-align: center;
-    
+    background-color: cyan;
 }
 
 /* belajar.html
