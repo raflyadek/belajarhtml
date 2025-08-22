@@ -4,54 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>ini belajar 2</p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <!-- <table>
-        <thead>
-            <tr>
-                <th>
-                    th1
-                </th>
-                <th>
-                    th2
-                </th>
-                <th>
-                    th3
-                </th>
-                <th>
-                    th4
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    td1
-                </td>
-                <td>
-                    td1
-                </td>
-                <td>
-                    td2
-                </td>
-                <td>
-                    td3
-                </td>
-            </tr>
-        </tbody>
-        <footer>
-            <tr>
-                <td>
-                    footer1
-                </td>
-            </tr>
-        </footer>
-    </table> -->
+    <h1>BELAJAR SELECTOR</h1>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>this list is child from div container</li>
+                    <li>and grandchild from header</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <main>
+        <section class="information">
+            <div class="container">
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            </div>
+        </section>
+            
+        <section class="support-sentence">
+            <div class="container">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p> contact information</p>
+            <p>rafly@rafly.com</p>
+        </div>
+    </footer>
+    
+        <!-- <h1>
+            belajar form
+        </h1>
+        <form action="/belajar2.html" method="get">
+            
+            <label for="nama">Nama:</label>
+            <input type="text" name="nama" id="nama"> 
+            <br>
+            <label for="umur">Umur:</label>
+            <span>Muda</span>
+            <input type="range" name="umur" id="umur" min="0" max="100" step="10" value="20">
+            <span>Tua</span>
+            <br>
+            <p>Apa gender kamu?</p>
+            <label for="cowo">Cowo</label>
+            <input type="checkbox" name="gender" id="cowo" value="cowo">
+            <br>
+            <label for="cewe">Cewe</label>
+            <input type="checkbox" name="gender" id="cewe" value="cewe">
+            <br>
+            <p>Kamu setuju informasi ini disimpan?</p>
+            <label for="yes">Yes</label>
+            <input type="radio" name="informasi" id="yes" value="yes">
+            <label for="no">No</label>
+            <input type="radio" name="informasi" id="no" value="no">
+            <br>
+            <label for="domisili">Domisili</label>
+            <select name="domisili" id="domisili">
+                <option value="domisili">Jawa Barat</option>
+                <option value="domisili">Jawa Tengah</option>
+                <option value="domisili">Jawa Timur</option>
+                <option value="domisili">Kalimantan</option>
+            </select>
+            <br>
+            <section class="kendaraan">
+                <label for="kendaraan">Kendaraan yang kamu punya?</label>
+                <input type="text" name="kendaraan" id="kendaraan" list="kendaraans" required>
+                <datalist id="kendaraans">
+                    <option value="motor">motor</option>
+                    <option value="mobil">mobil</option>
+                    <option value="truk">truk</option>
+                    <option value="sepeda">sepeda</option>
+                    <option value="hoverboard">hoverboard</option>
+                </datalist>
+            </section>
+            <br>
+            <label for="alamat">Alamat:</label>
+            <br>
+            <textarea name="alamat" id="alamat" rows="5" cols="40"></textarea>
+            <br>
+            <label for="alamat2">Alamat</label>
+            <br>
+            <input type="text" name="alamat2" id="alamat2" required minlength="20" maxlength="300" pattern="[a-zA-Z0-9]+">
+            <br>
+            <label for="tinggi">tinggi:</label>
+            <br>
+            <input type="number" name="tinggi" id="tinggi" required min="30" max="200">
+            <br>
+            <input type="submit" name="submit" id="submit" value="SUBMIT">
+        </form> -->
 </body>
 </html>
