@@ -7,10 +7,10 @@ html {
 /* global default style */
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
     line-height: 1.6;
     color: #333;
     background: #f9f9f9;
-    font-size: 1rem;
     display: flex;
     flex-direction: column;
     flex:1;
@@ -26,41 +26,63 @@ p { font-size: 1rem; }
 
 /* layout helper */
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
-    margin: 0 auto 0;
+    margin: 0 auto ;
+    text-align: center;
+    /* background-color: blue; */
     /* flex-grow: 1; */
 }
 
 /* components */
-.information {
-    font-weight: bold;
-    /* background-color: yellow; */
-    flex-grow: 1;
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
-.support-sentence {
-    font-weight: bold;
-    color: red;
+
+nav ul {
+    background-color: red;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav a {
+    background-color: aqua;
+    text-decoration: none;
+    color: white;
+}
+
+.information {
+    background-color: yellow;
 }
 
 main {
     background-color: green;
-    /* flex-grow: 1; */
+    flex-grow: 1;
 }
+
 
 .information-1 {
     background-color: yellow;
-    /* flex-grow: 1; */
 }
 
 .flexboxgrow {
     background-color: red;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
+
 
 footer {
     text-align: center;
-    background-color: cyan;
+    background-color: gold;
+}
+
+.container-2 {
 }
 
 /* belajar.html
