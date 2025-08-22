@@ -6,7 +6,6 @@ html {
 
 /* global default style */
 body {
-    min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     color: #333;
@@ -15,9 +14,9 @@ body {
     display: flex;
     flex-direction: column;
     flex:1;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 /* typography */
@@ -29,12 +28,15 @@ p { font-size: 1rem; }
 .container {
     width: 90%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 0;
+    /* flex-grow: 1; */
 }
 
-/* component  */
+/* components */
 .information {
     font-weight: bold;
+    /* background-color: yellow; */
+    flex-grow: 1;
 }
 .support-sentence {
     font-weight: bold;
@@ -42,12 +44,23 @@ p { font-size: 1rem; }
 }
 
 main {
+    background-color: green;
+    /* flex-grow: 1; */
+}
+
+.information-1 {
+    background-color: yellow;
+    /* flex-grow: 1; */
+}
+
+.flexboxgrow {
+    background-color: red;
     flex-grow: 1;
 }
 
 footer {
+    text-align: center;
     background-color: cyan;
-    margin-bottom: 0;
 }
 
 /* belajar.html
