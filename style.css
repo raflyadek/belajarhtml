@@ -6,6 +6,7 @@ html {
 
 /* global default style */
 body {
+    min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     color: #333;
@@ -16,6 +17,7 @@ body {
     flex:1;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 /* typography */
@@ -39,8 +41,13 @@ p { font-size: 1rem; }
     color: red;
 }
 
+main {
+    flex-grow: 1;
+}
+
 footer {
     background-color: cyan;
+    margin-bottom: 0;
 }
 
 /* belajar.html
